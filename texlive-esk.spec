@@ -1,3 +1,9 @@
+# revision 18115
+# category Package
+# catalog-ctan /macros/latex/contrib/esk
+# catalog-date 2010-05-11 12:36:30 +0200
+# catalog-license gpl
+# catalog-version 1.0
 Name:		texlive-esk
 Version:	1.0
 Release:	1
@@ -55,6 +61,7 @@ it.
 %doc %{_texmfdistdir}/source/latex/esk/esk.dtx
 %doc %{_texmfdistdir}/source/latex/esk/esk.ins
 %doc %{_texmfdistdir}/source/latex/esk/eskman.drv
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +72,5 @@ it.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

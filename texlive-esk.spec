@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-esk
 Version:	1.0
-Release:	1
+Release:	2
 Summary:	Package to encapsulate Sketch files in LaTeX sources
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/esk

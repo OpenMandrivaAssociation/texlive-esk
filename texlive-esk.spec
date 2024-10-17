@@ -3,7 +3,7 @@ Version:	18115
 Release:	2
 Summary:	Package to encapsulate Sketch files in LaTeX sources
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/esk
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/esk
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/esk.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/esk.doc.r%{version}.tar.xz
